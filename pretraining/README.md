@@ -49,7 +49,5 @@ To do so, you can simply set the --whole_word_masking parameter in training scri
 
 
 ## Acknowledgements:
+Parts of the code are modified from [BERT](https://github.com/jcyk/BERT). We appreciate the authors for making it open-sourced.
 
-
-**[Note]** The actual batch size equals to gradient_accumulation_steps x number_of_gpu x batch_size_per_gpu. We recommend
-you to set the actual batch size value as 128. All PPTOD models are trained on a single machine with 8 x Nvidia V100 GPUs (8 x 32GB memory).
