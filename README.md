@@ -1,9 +1,11 @@
 # CLBERT: Improving BERT with Contrastive Token Regularization
 
 ## Huggingface Models:
+
+|Model Name|Model Address|
 |:-------------:|:-------------:|
-|English CLBERT|[cambridgeltl/clbert-base-uncased](https://huggingface.co/cambridgeltl/clbert-base-uncased)|
-|Chinese CLBERT|[cambridgeltl/clbert-base-chinese](https://huggingface.co/cambridgeltl/clbert-base-chinese)|
+|English CLBERT (cambridgeltl/clbert-base-uncased)|[link](https://huggingface.co/cambridgeltl/clbert-base-uncased)|
+|Chinese CLBERT (cambridgeltl/clbert-base-chinese)|[link](https://huggingface.co/cambridgeltl/clbert-base-chinese)|
 
 ### 1. Environment Setup:
 ```yaml
