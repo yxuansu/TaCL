@@ -26,7 +26,7 @@ Here, {} is in ['english', 'chinese'] and some key parameters are described belo
 --batch_size_per_gpu: The batch size for each GPU.
 --gradient_accumulation_steps: How many forward computations between two gradient updates.
 --effective_batch_size: The overall batch size. It equals to batch_size_per_gpu x gradient_accumulation_steps x number_of_gpu.
---total_steps: Total training steps. In our paper, we train CLBERT for 100k steps.
+--total_steps: Total training steps. In our paper, we train CLBERT for 150k steps.
 --print_every: Have many steps to show the intermediate results.
 --save_every: How many steps to save one checkpoint.
 --ckpt_save_path: Where to save the checkpoints.
