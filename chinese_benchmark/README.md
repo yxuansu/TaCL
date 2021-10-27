@@ -33,9 +33,9 @@ After running the scripts, you should get the following test set results for dif
 |     Dataset | Precision       |Recall|F1|
 | :-------------: |:-------------:|:-----:|:-----:|
 |MSRA||||
-|OntoNotes|0.819|0.830|0.824|
-|Resume||||
-|Weibo||||
+|OntoNotes|81.88|82.98|82.42|
+|Resume|96.48|96.42|96.45|
+|Weibo|68.40|70.73|69.54|
 |PKU||||
 
 
