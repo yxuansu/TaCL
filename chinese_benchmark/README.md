@@ -4,7 +4,6 @@
 
 ### (1) Downloading checkpoints for all evaluated tasks:
 ```yaml
-cd ckpt
 chmod +x ./download_checkpoints.sh
 ./download_checkpoints.sh
 ```
@@ -39,6 +38,8 @@ After running the scripts, you should get the following test set results for dif
 |PKU||||
 
 ## 2. Train a new model:
+
+### (1) Training:
 ```yaml
 cd ./sh_folder/train/
 chmod +x ./{}.sh
@@ -63,7 +64,8 @@ Here, {} is in ['msra', 'onto', 'weibo', 'resume', 'pku'] and the parameters are
 **[Note 2]** The actual batch size equals to gradient_accumulation_steps x number_of_gpu x batch_size_per_gpu. We recommend
 you to set the actual batch size value as 128.
 
-
+### (2) Inference:
+Use the same scripts provided in ./sh_folder/inference/ directory. Remeber to change --saved_ckpt_path parameter to your newly trained model.
 
 
 
