@@ -43,6 +43,7 @@ CLBERT can be trained on a single machine with 8 Nvidia V100 GPUs. For machines 
 |32GB|8|32|1|256|
 
 ### 4. Whole word masking option:
+We also provide an option to train CLBERT with whole word masking schema as described in [Cui et al. 2019](https://arxiv.org/abs/1906.08101). To 
 
 
 ## Acknowledgements:
