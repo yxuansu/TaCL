@@ -43,7 +43,9 @@ CLBERT can be trained on a single machine with 8 Nvidia V100 GPUs. For machines 
 |32GB|8|32|1|256|
 
 ### 4. Whole word masking option:
-Although we use the original BERT masking procedure in our experiments. We also provide an option to train CLBERT with whole word masking schema as described in [Cui et al. 2019](https://arxiv.org/abs/1906.08101). To do so, you can simply set the --whole_word_masking parameter in training scripts as "True" (the default value is "False".).
+Although we use the original BERT masking procedure in our experiments. We also provide an option to train CLBERT with whole word masking schema as described in [Cui et al. 2019](https://arxiv.org/abs/1906.08101). 
+
+To do so, you can simply set the --whole_word_masking parameter in training scripts as "True" (the default value is "False".). For training English CLBERT, you can use the same tokenized pre-training data. For training Chinese CLBERT, you should change the --train_data parameter to "../pretraining_data/chinese/segmented_chinese_wiki.txt".
 
 
 ## Acknowledgements:
