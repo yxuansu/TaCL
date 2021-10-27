@@ -30,12 +30,12 @@ Here, {} is in ['msra', 'ontonotes', 'weibo', 'resume', 'pku'] and the parameter
 ### (3) Results from trained checkpoints:
 After running the scripts, you should get the following test set results for different datasets.
 
-|     Dataset Name   | Precision       |Recall|F1|
+|     Dataset | Precision       |Recall|F1|
 | :-------------: |:-------------:|:-----:|:-----:|
-|||||
-|||||
-|||||
-|||||
-|||||
+|MSRA||||
+|OntoNotes|0.819|0.830|0.824|
+|Resume||||
+|Weibo||||
+|PKU||||
 
 
