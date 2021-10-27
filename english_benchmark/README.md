@@ -17,7 +17,7 @@ pip install -r requirements.txt
 
 #### (3) Run experiments on SQuAD 1.1:
 ```yaml
-python run_qa.py \
+CUDA_VISIBLE_DEVICES=0 python run_qa.py \
   --model_name_or_path cambridgeltl/clbert-base-uncased \
   --dataset_name squad \
   --do_train \
@@ -32,7 +32,7 @@ python run_qa.py \
 
 #### (4) Run experiments on SQuAD 2.0:
 ```yaml
-python run_qa.py \
+CUDA_VISIBLE_DEVICES=0 python run_qa.py \
   --model_name_or_path cambridgeltl/clbert-base-uncased \
   --dataset_name squad_v2 \
   --do_train \
