@@ -58,7 +58,7 @@ Here, {} is in ['msra', 'onto', 'weibo', 'resume', 'pku'] and the parameters are
 --save_path_prefix: The path to save the trained model.
 ```
 
-**[Note 1]** The few-shot training samples are randomly selected, thus the results from different runs may not be the same.
+**[Note 1]** We do not do any learning selection, the 2e-5 is just a default value. Better results are possible if you choose to use a different learning rate.
 
 **[Note 2]** The actual batch size equals to gradient_accumulation_steps x number_of_gpu x batch_size_per_gpu. We recommend
 you to set the actual batch size value as 128.
