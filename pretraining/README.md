@@ -1,9 +1,9 @@
-### Code for Training CLBERT
+## Code for Training CLBERT
 
-#### 1. Prepare data:
+### 1. Prepare data:
 **[Note]** Before training CLBERT, please make sure you have prepared the pre-training corpora as described [here](https://github.com/yxuansu/CLBERT/tree/main/pretraining_data).
 
-#### 2. Make sure everything is ready:
+### 2. Make sure everything is ready:
 To debug whether you have everything ready, you can run test scripts as
 
 ```yaml
@@ -12,7 +12,7 @@ chmod +x ./debug_clbert_{}.sh
 ```
 Here, {} is in ['english', 'chinese'].
 
-#### 3. Train the mode:
+### 3. Train the mode:
 After completing the test, you can train CLBERT as 
 ```yaml
 chmod +x ./train_clbert_{}.sh
@@ -42,7 +42,7 @@ CLBERT can be trained on a single machine with 8 Nvidia V100 GPUs. For machines 
 |16GB|8|16|2|256|
 |32GB|8|32|1|256|
 
-#### 4. Whole word masking option:
+### 4. Whole word masking option:
 
 
 ## Acknowledgements:
