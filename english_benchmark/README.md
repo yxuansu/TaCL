@@ -11,7 +11,7 @@ pip install .
 
 #### (2) Go to SQuAD directory and prepare environment:
 ```yaml
-cd ./pytorch/question-answering/
+cd ./examples/pytorch/question-answering/
 pip install -r requirements.txt
 ```
 
