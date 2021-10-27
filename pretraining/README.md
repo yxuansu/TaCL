@@ -32,5 +32,16 @@ Here, {} is in ['english', 'chinese'] and some key parameters are described belo
 --ckpt_save_path: Where to save the checkpoints.
 ```
 
+CLBERT can be trained on a single machine with 8 Nvidia V100 GPUs. For machines with different memory, the training configurations are listed as below.
+
+|Memory per GPU|Number of GPUs|--number_of_gpu|--batch_size_per_gpu|--gradient_accumulation_steps|--effective_batch_size|
+|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|
+|||||||
+|||||||
+
+
+## Acknowledgements:
+
+
 **[Note]** The actual batch size equals to gradient_accumulation_steps x number_of_gpu x batch_size_per_gpu. We recommend
 you to set the actual batch size value as 128. All PPTOD models are trained on a single machine with 8 x Nvidia V100 GPUs (8 x 32GB memory).
