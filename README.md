@@ -6,8 +6,10 @@ pip3 install -r requirements.txt
 ```
 ### 2. Training CLBERT:
 
+### 3. Experiments on English Benchmarks:
+Please refer to details provided in ./english_benchmark directory.
 
-### 3. Fine-tuning on Chinese Benchmarks:
+### 4. Experiments on Chinese Benchmarks:
 #### (1) Chinese Benchmark Data Preparation:
 ```yaml
 chmod +x ./download_benchmark_data.sh
@@ -15,3 +17,5 @@ chmod +x ./download_benchmark_data.sh
 ```
 #### (2) Fine-tuning and Inference:
 Please refer to details provided in ./chinese_benchmark directory.
+
+
