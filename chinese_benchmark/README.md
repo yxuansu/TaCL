@@ -65,7 +65,7 @@ Here, {} is in ['msra', 'onto', 'weibo', 'resume', 'pku'] and the parameters are
 you to set the actual batch size value as 128.
 
 ### (2) Inference:
-Use the same scripts provided in ./sh_folder/inference/ directory. Remeber to change --saved_ckpt_path parameter to your newly trained model.
+Use the same scripts provided in ./sh_folder/inference/ directory. Remeber to change the --saved_ckpt_path parameter to the path of your newly trained model.
 
 
 
