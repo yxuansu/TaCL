@@ -10,7 +10,12 @@ chmod +x ./debug_clbert_{}.sh
 ```
 Here, {} is in ['english', 'chinese'].
 
-and some key parameters are described below:
+After completing the test, you can train CLBERT as 
+```yaml
+chmod +x ./train_clbert_{}.sh
+./train_clbert_{}.sh
+```
+Here, {} is in ['english', 'chinese'] and some key parameters are described below:
 
 ```yaml
 --use_nlu: Whether to include pre-training data that is annotated for NLU task. The default value is True.
