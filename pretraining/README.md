@@ -34,10 +34,10 @@ Here, {} is in ['english', 'chinese'] and some key parameters are described belo
 
 CLBERT can be trained on a single machine with 8 Nvidia V100 GPUs. For machines with different memory, the training configurations are listed as below.
 
-|Memory per GPU|Number of GPUs|--number_of_gpu|--batch_size_per_gpu|--gradient_accumulation_steps|--effective_batch_size|
-|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|
-|||||||
-|||||||
+|Memory per GPU|number_of_gpu|batch_size_per_gpu|gradient_accumulation_steps|effective_batch_size|
+|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|
+|16GB|8|16|2|256|
+|32GB|8|32|1|256|
 
 
 ## Acknowledgements:
