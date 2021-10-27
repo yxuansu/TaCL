@@ -4,3 +4,9 @@
 ```yaml
 pip3 install -r requirements.txt
 ```
+
+### Chinese Benchmark Data Preparation:
+```yaml
+chmod +x ./download_benchmark_data.sh
+./download_benchmark_data.sh
+```
