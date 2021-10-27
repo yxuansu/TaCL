@@ -1,4 +1,4 @@
-### All the experiments on English benchmarks are conducted using [huggingface transformers](https://github.com/huggingface/transformers) library. The detailed instructions can be found [here](https://github.com/huggingface/transformers/tree/master/examples). 
+### All the experiments on English benchmarks are conducted using [huggingface transformers](https://github.com/huggingface/transformers) library.  
 
 ### In the following, we give examples on how to run experiments on SQuAD 1.1 and 2.0
 #### (1) First download huggingface:
@@ -44,3 +44,5 @@ python run_qa.py \
   --doc_stride 128 \
   --output_dir your_path_to_save_model
 ```
+
+The detailed instructions of running experiments on other benchmarks can be found [here](https://github.com/huggingface/transformers/tree/master/examples).
