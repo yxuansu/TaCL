@@ -16,15 +16,19 @@ chmod +x ./inference_{}.sh
 ./inference_{}.sh
 ```
 
-Here, {} is in ['msra', 'ontonotes', 'weibo', 'resume', 'pku'] and some key parameters are described below:
+Here, {} is in ['msra', 'ontonotes', 'weibo', 'resume', 'pku'] and the parameters are described below:
 
 ```yaml
---use_db_as_input: Whether use DB result as input. It should be set as the same value as the 
-                   --use_db_as_input argument in the training script.
-                   
---pretrained_path: The path that stores the model from training. Should be the same value as the 
-                   --ckpt_save_path argument in the training script.
-                   
---output_save_path: The directory to save the predicted result.
+--saved_ckpt_path: The trained model checkpoint path. Remember to modify it when you train your own model.
+
+--train_path: Training data path.
+
+--dev_path: Validation data path.
+
+--test_path: Test data path.
+
+--label_path: Data label path.
+
+--batch_size: Inference batch size.
 ```
 
