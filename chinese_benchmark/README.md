@@ -38,4 +38,32 @@ After running the scripts, you should get the following test set results for dif
 |Weibo|68.40|70.73|69.54|
 |PKU||||
 
+## 2. Train a new model:
+```yaml
+cd ./sh_folder/train/
+chmod +x ./{}.sh
+./{}.sh
+```
+Here, {} is in ['msra', 'onto', 'weibo', 'resume', 'pku'] and the parameters are described below:
+
+```yaml
+--model_name: The name of our released Chinese model, cambridgeltl/clbert-base-chinese.
+--train_path: Training data path.
+--dev_path: Validation data path.
+--test_path: Test data path.
+--label_path: Data label path.
+--learning_rate: The learning rate. 
+--number_of_gpu: Number of available GPUs.
+--number_of_runs: Number of different runs you want to experiment on the benchmark.
+--save_path_prefix: The path to save the trained model.
+```
+
+**[Note 1]** The few-shot training samples are randomly selected, thus the results from different runs may not be the same.
+
+**[Note 2]** The actual batch size equals to gradient_accumulation_steps x number_of_gpu x batch_size_per_gpu. We recommend
+you to set the actual batch size value as 128.
+
+
+
+
 
