@@ -13,3 +13,34 @@ pip install .
 cd ./pytorch/question-answering/
 pip install -r requirements.txt
 ```
+
+#### (3) Run experiments on SQuAD 1.1:
+```yaml
+python run_qa.py \
+  --model_name_or_path cambridgeltl/clbert-base-uncased \
+  --dataset_name squad \
+  --do_train \
+  --do_eval \
+  --per_device_train_batch_size 12 \
+  --learning_rate 3e-5 \
+  --num_train_epochs 2 \
+  --max_seq_length 384 \
+  --doc_stride 128 \
+  --output_dir your_path_to_save_model
+```
+
+#### (4) Run experiments on SQuAD 2.0:
+```yaml
+python run_qa.py \
+  --model_name_or_path cambridgeltl/clbert-base-uncased \
+  --dataset_name squad_v2 \
+  --do_train \
+  --do_eval \
+    --version_2_with_negative \
+  --per_device_train_batch_size 12 \
+  --learning_rate 3e-5 \
+  --num_train_epochs 2 \
+  --max_seq_length 384 \
+  --doc_stride 128 \
+  --output_dir your_path_to_save_model
+```
