@@ -1,4 +1,4 @@
-# CLBERT: Improving BERT with Contrastive Token Regularisation
+# CLBERT: Improving BERT with Contrastive Token Regularization
 
 ### 1. Environment Setup:
 ```yaml
