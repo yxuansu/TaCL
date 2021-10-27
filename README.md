@@ -11,10 +11,10 @@
 ```yaml
 pip3 install -r requirements.txt
 ```
-### 2. Training CLBERT:
+### 2. Train CLBERT:
 #### (1) Prepare pre-training data:
 Please refer to details provided in ./pretraining_data directory.
-#### (2) Training:
+#### (2) Train the model:
 Please refer to details provided in ./pretraining directory.
 
 ### 3. Experiments on English Benchmarks:
