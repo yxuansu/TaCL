@@ -1,4 +1,4 @@
-### Code for Dialogue Multi-Task Pre-training
+### Code for Training CLBERT
 
 **[Note]** Before training CLBERT, please make sure you have prepared the pre-training corpora as described [here](https://github.com/yxuansu/CLBERT/tree/main/pretraining_data).
 
