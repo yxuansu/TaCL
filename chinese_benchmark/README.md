@@ -20,15 +20,10 @@ Here, {} is in ['msra', 'ontonotes', 'weibo', 'resume', 'pku'] and the parameter
 
 ```yaml
 --saved_ckpt_path: The trained model checkpoint path. Remember to modify it when you train your own model.
-
 --train_path: Training data path.
-
 --dev_path: Validation data path.
-
 --test_path: Test data path.
-
 --label_path: Data label path.
-
 --batch_size: Inference batch size.
 ```
 
