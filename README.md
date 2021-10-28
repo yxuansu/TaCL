@@ -8,10 +8,11 @@
 |Chinese CLBERT (cambridgeltl/clbert-base-chinese)|[link](https://huggingface.co/cambridgeltl/clbert-base-chinese)|
 
 ## Main Results:
+In the following, we show the comparison between our CLBERT and original BERT on **[SQuAD (Rajpurkar et al., 2018)](https://rajpurkar.github.io/SQuAD-explorer/)** 1.1, 2.0 (dev set), **[GLUE (Wang et al., 2019)](https://gluebenchmark.com/)** Average score. 
 |**Model**|SQuAD 1.1 EM/F1|SQuAD 2.0 EM/F1|GLUE Average|MSRA|OntoNotes|Resume|Weibo|PKU|
 |:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|
-||||||||||
-||||||||||
+|BERT|||||||||
+|CLBERT|||||||||
 
 
 
