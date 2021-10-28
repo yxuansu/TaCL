@@ -8,10 +8,9 @@
 |Chinese CLBERT (cambridgeltl/clbert-base-chinese)|[link](https://huggingface.co/cambridgeltl/clbert-base-chinese)|
 
 ## Main Results:
-|Model Name|Model Address|
-|:-------------:|:-------------:|
-|<td colspan=2>triple|
-
+| One    | Two | Three | Four    | Five  | Six 
+| -
+| Span <td colspan=3>triple  <td colspan=2>double
 
 
 ### 1. Environment Setup:
