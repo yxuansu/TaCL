@@ -12,8 +12,8 @@ In the following, we show the comparison between our CLBERT and the original BER
 
 |**Model**|SQuAD 1.1 EM/F1|SQuAD 2.0 EM/F1|GLUE Average|MSRA|OntoNotes|Resume|Weibo|PKU|
 |:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|
-|BERT|||||||||
-|CLBERT|||||||||
+|BERT|80.8/88.5|73.4/76.8|79.6||||||
+|CLBERT|81.4/88.9|74.0|77.2|81.2|||||
 
 
 
