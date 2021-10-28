@@ -9,7 +9,7 @@ CUDA_VISIBLE_DEVICES=3 python  ../../train.py\
     --batch_size_per_gpu 64\
     --number_of_gpu 1\
     --gradient_accumulation_steps 2\
-    --total_epochs 100\
+    --total_epochs 40\
     --number_of_runs 5\
     --save_path_prefix ../../ckpt/ontonotes/
 
