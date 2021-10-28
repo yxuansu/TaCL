@@ -9,7 +9,8 @@
 
 ## Main Results:
 |Model Name|Model Address|
-|<td colspan=4>triple|
+|:-------------:|:-------------:|
+|<td colspan=2>triple|
 
 
 
