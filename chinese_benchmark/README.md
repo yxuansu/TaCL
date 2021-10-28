@@ -31,11 +31,11 @@ After running the scripts, you should get the following test set results for dif
 
 |     Dataset | Precision       |Recall|F1|
 | :-------------: |:-------------:|:-----:|:-----:|
-|MSRA|95.84|94.89|95.36|
+|MSRA|95.41|95.47|95.44|
 |OntoNotes|81.88|82.98|82.42|
 |Resume|96.48|96.42|96.45|
 |Weibo|68.40|70.73|69.54|
-|PKU||||
+|PKU|97.04|96.46|96.75|
 
 ## 2. Train a new model:
 
