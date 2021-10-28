@@ -10,7 +10,6 @@ import numpy as np
 import argparse
 
 from transformers import BertForPreTraining, BertTokenizer, BertConfig, BertModel
-from utils import compute_valid_logp_matrix, get_context_msk, get_loss_weight
 from torch.nn import CrossEntropyLoss
 
 def label_smoothed_nll_loss(contrastive_scores, contrastive_labels, eps=0.0):
