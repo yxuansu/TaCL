@@ -1,7 +1,7 @@
 # CLBERT: Improving BERT with Contrastive Token Regularization
 
 ## Main Results:
-In the following, we show the comparison between our CLBERT and the original BERT on **[SQuAD (Rajpurkar et al., 2018)](https://rajpurkar.github.io/SQuAD-explorer/)** (dev set), **[GLUE (Wang et al., 2019)](https://gluebenchmark.com/)** average score, and results (test F1) on five Chinese sequence labelling benchmarks (MSRA, OntoNotes, Resume, Weibo, PKU).
+We show the comparison between our CLBERT and the original BERT on **[SQuAD (Rajpurkar et al., 2018)](https://rajpurkar.github.io/SQuAD-explorer/)** (dev set), **[GLUE (Wang et al., 2019)](https://gluebenchmark.com/)** average score, and results (test F1) on five Chinese sequence labelling benchmarks (MSRA, OntoNotes, Resume, Weibo, PKU).
 
 |**Model**|SQuAD 1.1 EM/F1|SQuAD 2.0 EM/F1|GLUE Average|MSRA|OntoNotes|Resume|Weibo|PKU|
 |:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|
