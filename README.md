@@ -8,8 +8,11 @@
 |Chinese CLBERT (cambridgeltl/clbert-base-chinese)|[link](https://huggingface.co/cambridgeltl/clbert-base-chinese)|
 
 ## Main Results:
-|**Model**|SQuAD 1.1 EM/F1|SQuAD 2.0 EM/F1|GLUE Average|MSRA|OntoNotes|Resume|Weibo|
-|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|
+|**Model**|SQuAD 1.1 EM/F1|SQuAD 2.0 EM/F1|GLUE Average|MSRA|OntoNotes|Resume|Weibo|PKU|
+|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|
+||||||||||
+||||||||||
+
 
 
 ### 1. Environment Setup:
