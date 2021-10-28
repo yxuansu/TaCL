@@ -1,4 +1,4 @@
-# CLBERT: Improving BERT with Token-aware Contrastive Learning
+# CLBERT: Improving BERT Pre-training with Token-aware Contrastive Learning
 
 ## Main Results:
 We show the comparison between our CLBERT (base version) and the original BERT (base version) on **[SQuAD (Rajpurkar et al., 2018)](https://rajpurkar.github.io/SQuAD-explorer/)** (dev set), **[GLUE (Wang et al., 2019)](https://gluebenchmark.com/)** average score, and results (test F1) on five Chinese sequence labelling benchmarks (MSRA, OntoNotes, Resume, Weibo, PKU).
