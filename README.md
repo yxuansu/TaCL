@@ -17,15 +17,16 @@ We show the comparison between our CLBERT (base version) and the original BERT (
 
 ## Example Usage:
 ```python
+import torch
 from transformers import AutoModel, AutoTokenizer
 model_name = 'cambridgeltl/clbert-base-uncased'
 model = AutoModel.from_pretrained(model_name)
 tokenizer = AutoTokenizer.from_pretrained(model_name)
+text = '[CLS] clbert is awesome. [SEP]'
+tokenized_token_list = tokenizer.tokenize(text)
+input_ids = torch.LongTensor(tokenizer.convert_tokens_to_ids(tokenized_token_list)).view(1, -1)
+representation = model(input_ids).last_hidden_state # [1, seqlen, embed_dim]
 ```
-
-
-
-
 
 ### 1. Environment Setup:
 ```yaml
