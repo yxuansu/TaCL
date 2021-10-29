@@ -17,7 +17,10 @@ We show the comparison between our CLBERT (base version) and the original BERT (
 
 ## Example Usage:
 ```python
-print (a)
+from transformers import AutoModel, AutoTokenizer
+model_name = 'cambridgeltl/clbert-base-uncased'
+model = AutoModel.from_pretrained(model_name)
+tokenizer = AutoTokenizer.from_pretrained(model_name)
 ```
 
 
