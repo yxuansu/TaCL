@@ -1,6 +1,7 @@
 # CLBERT: Improving BERT Pre-training with Token-aware Contrastive Learning
 
 ## Main Results:
+
 We show the comparison between our CLBERT (base version) and the original BERT (base version) on **[SQuAD (Rajpurkar et al., 2018)](https://rajpurkar.github.io/SQuAD-explorer/)** (dev set), **[GLUE (Wang et al., 2019)](https://gluebenchmark.com/)** average score, and test set F1 results on five Chinese sequence labelling benchmarks (MSRA, OntoNotes, Resume, Weibo, PKU).
 
 |**Model**|SQuAD 1.1 EM/F1|SQuAD 2.0 EM/F1|GLUE Average|MSRA|OntoNotes|Resume|Weibo|PKU|
@@ -8,6 +9,10 @@ We show the comparison between our CLBERT (base version) and the original BERT (
 |BERT|80.8/88.5|73.4/76.8|79.6|94.95|80.14|95.53|68.20|96.50|
 |CLBERT|**81.4/88.9**|**74.0/77.2**|**81.2**|**95.44**|**82.42**|**96.45**|**69.54**|**96.75**|
 
+|**Model**|MSRA|OntoNotes|Resume|Weibo|PKU|CityU|AS|
+|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|
+|BERT|94.95|80.14|95.53|68.20|96.50|||
+|CLBERT||||||||
 ## Huggingface Models:
 
 |Model Name|Model Address|
