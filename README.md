@@ -12,7 +12,7 @@ We show the comparison between our CLBERT (base version) and the original BERT (
 |**Model**|MSRA|OntoNotes|Resume|Weibo|PKU|CityU|AS|
 |:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|
 |BERT|94.95|80.14|95.53|68.20|96.50|||
-|CLBERT||||||||
+|CLBERT|**95.44**|**82.42**|**96.45**|**69.54**|**96.75**|**98.16**||
 ## Huggingface Models:
 
 |Model Name|Model Address|
