@@ -4,13 +4,13 @@
 
 We show the comparison between our CLBERT (base version) and the original BERT (base version). 
 
-English benchmark results on **[SQuAD (Rajpurkar et al., 2018)](https://rajpurkar.github.io/SQuAD-explorer/)** (dev set) and **[GLUE (Wang et al., 2019)](https://gluebenchmark.com/)** average score.
+(1) English benchmark results on **[SQuAD (Rajpurkar et al., 2018)](https://rajpurkar.github.io/SQuAD-explorer/)** (dev set) and **[GLUE (Wang et al., 2019)](https://gluebenchmark.com/)** average score.
 |**Model**|SQuAD 1.1 EM/F1|SQuAD 2.0 EM/F1|GLUE Average|
 |:-------------:|:-------------:|:-------------:|:-------------:|
 |BERT|80.8/88.5|73.4/76.8|79.6|
 |CLBERT|**81.4/88.9**|**74.0/77.2**|**81.2**|
 
-Chinese benchmark results (test set F1) on four NER tasks (MSRA, OntoNotes, Resume, and Weibo) and three Chinese word segmentation (CWS) tasks (PKU, CityU, and AS).
+(2) Chinese benchmark results (test set F1) on four NER tasks (MSRA, OntoNotes, Resume, and Weibo) and three Chinese word segmentation (CWS) tasks (PKU, CityU, and AS).
 |**Model**|MSRA|OntoNotes|Resume|Weibo|PKU|CityU|AS|
 |:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|
 |BERT|94.95|80.14|95.53|68.20|96.50|97.60||
