@@ -43,7 +43,7 @@ representation = model(input_ids).last_hidden_state # [1, seqlen, embed_dim]
 python version 3.8
 pip3 install -r requirements.txt
 ```
-### 2. Train CLBERT:
+### 2. Train TaCL:
 #### (1) Prepare pre-training data:
 Please refer to details provided in ./pretraining_data directory.
 #### (2) Train the model:
