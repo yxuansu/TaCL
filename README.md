@@ -1,4 +1,4 @@
-# BERTCSE: Improving BERT Pre-training with Token-aware Contrastive Learning
+# TaCL: Improving BERT Pre-training with Token-aware Contrastive Learning
 
 ## Main Results:
 
