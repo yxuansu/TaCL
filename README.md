@@ -19,8 +19,8 @@ We show the comparison between our CLBERT (base version) and the original BERT (
 
 |Model Name|Model Address|
 |:-------------:|:-------------:|
-|English CLBERT (**cambridgeltl/clbert-base-uncased**)|[link](https://huggingface.co/cambridgeltl/clbert-base-uncased)|
-|Chinese CLBERT (**cambridgeltl/clbert-base-chinese**)|[link](https://huggingface.co/cambridgeltl/clbert-base-chinese)|
+|English TaCL (**cambridgeltl/tacl-bert-base-uncased**)|[link](https://huggingface.co/cambridgeltl/tacl-bert-base-uncased)|
+|Chinese TaCL (**cambridgeltl/tacl-bert-base-chinese**)|[link](https://huggingface.co/cambridgeltl/tacl-bert-base-chinese)|
 
 ## Example Usage:
 ```python
