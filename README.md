@@ -27,7 +27,7 @@ We show the comparison between our CLBERT (base version) and the original BERT (
 import torch
 # initialize model
 from transformers import AutoModel, AutoTokenizer
-model_name = 'cambridgeltl/clbert-base-uncased'
+model_name = 'cambridgeltl/tacl-bert-base-uncased'
 model = AutoModel.from_pretrained(model_name)
 tokenizer = AutoTokenizer.from_pretrained(model_name)
 # create input ids
