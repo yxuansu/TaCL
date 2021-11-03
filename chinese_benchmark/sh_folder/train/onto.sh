@@ -1,5 +1,5 @@
 CUDA_VISIBLE_DEVICES=3 python  ../../train.py\
-    --model_name cambridgeltl/clbert-base-chinese\
+    --model_name cambridgeltl/tacl-bert-base-chinese\
     --train_path ../../../benchmark_data/NER/OntoNote4NER/OntoNote4NER.train.char.txt\
     --dev_path ../../../benchmark_data/NER/OntoNote4NER/OntoNote4NER.dev.char.txt\
     --test_path ../../../benchmark_data/NER/OntoNote4NER/OntoNote4NER.test.char.txt\
