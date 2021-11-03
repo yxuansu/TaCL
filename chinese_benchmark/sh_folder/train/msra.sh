@@ -1,5 +1,5 @@
 CUDA_VISIBLE_DEVICES=6,7 python  ../../train.py\
-    --model_name cambridgeltl/clbert-base-chinese\
+    --model_name cambridgeltl/tacl-bert-base-chinese\
     --train_path ../../../benchmark_data/NER/MSRANER/MSRA.train.char.txt\
     --dev_path ../../../benchmark_data/NER/MSRANER/MSRA.dev.char.txt\
     --test_path ../../../benchmark_data/NER/MSRANER/MSRA.test.char.txt\
