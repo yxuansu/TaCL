@@ -1,5 +1,5 @@
 CUDA_VISIBLE_DEVICES=4,5 python  ../../train.py\
-    --model_name cambridgeltl/clbert-base-chinese\
+    --model_name cambridgeltl/tacl-bert-base-chinese\
     --train_path ../../../benchmark_data/CWS_data/PKU/pku_train_all_processed.txt\
     --dev_path ../../../benchmark_data/CWS_data/PKU/pku_dev_processed.txt\
     --test_path ../../../benchmark_data/CWS_data/PKU/pku_test_processed.txt\
