@@ -13,8 +13,8 @@ We show the comparison between TaCL (base version) and the original BERT (base v
 (2) Chinese benchmark results (test set F1) on four NER tasks (MSRA, OntoNotes, Resume, and Weibo) and three Chinese word segmentation (CWS) tasks (PKU, CityU, and AS).
 |**Model**|MSRA|OntoNotes|Resume|Weibo|PKU|CityU|AS|
 |:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|
-|BERT|94.95|80.14|95.53|68.20|96.50|97.60||
-|TaCL|**95.44**|**82.42**|**96.45**|**69.54**|**96.75**|**98.16**||
+|BERT|94.95|80.14|95.53|68.20|96.50|97.60|96.50|
+|TaCL|**95.44**|**82.42**|**96.45**|**69.54**|**96.75**|**98.16**|**96.75**|
 ## Huggingface Models:
 
 |Model Name|Model Address|
