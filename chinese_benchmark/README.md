@@ -36,6 +36,8 @@ After running the scripts, you should get the following test set results for dif
 |Resume|96.48|96.42|96.45|
 |Weibo|68.40|70.73|69.54|
 |PKU|97.04|96.46|96.75|
+|CityU|98.16|98.19|98.18|
+|AS|96.51|96.99|96.75|
 
 ## 2. Train a new model:
 
