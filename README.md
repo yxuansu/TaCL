@@ -5,7 +5,7 @@
 We show the comparison between TaCL (base version) and the original BERT (base version). 
 
 (1) English benchmark results on **[SQuAD (Rajpurkar et al., 2018)](https://rajpurkar.github.io/SQuAD-explorer/)** (dev set) and **[GLUE (Wang et al., 2019)](https://gluebenchmark.com/)** average score.
-|**Model**|SQuAD 1.1 EM/F1|SQuAD 2.0 EM/F1|GLUE Average|
+|**Model**|SQuAD 1.1 (EM/F1)|SQuAD 2.0 (EM/F1)|GLUE Average|
 |:-------------:|:-------------:|:-------------:|:-------------:|
 |BERT|80.8/88.5|73.4/76.8|79.6|
 |TaCL|**81.6/89.0**|**74.4/77.5**|**81.2**|
