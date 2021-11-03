@@ -8,7 +8,7 @@ We show the comparison between TaCL (base version) and the original BERT (base v
 |**Model**|SQuAD 1.1 EM/F1|SQuAD 2.0 EM/F1|GLUE Average|
 |:-------------:|:-------------:|:-------------:|:-------------:|
 |BERT|80.8/88.5|73.4/76.8|79.6|
-|TaCL|**81.4/88.9**|**74.0/77.2**|**81.2**|
+|TaCL|**81.6/89.0**|**74.0/77.2**|**81.2**|
 
 (2) Chinese benchmark results (test set F1) on four NER tasks (MSRA, OntoNotes, Resume, and Weibo) and three Chinese word segmentation (CWS) tasks (PKU, CityU, and AS).
 |**Model**|MSRA|OntoNotes|Resume|Weibo|PKU|CityU|AS|
