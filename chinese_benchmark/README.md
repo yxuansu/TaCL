@@ -15,7 +15,7 @@ chmod +x ./inference_{}.sh
 ./inference_{}.sh
 ```
 
-Here, {} is in ['msra', 'ontonotes', 'weibo', 'resume', 'pku'] and the parameters are described below:
+Here, {} is in ['msra', 'ontonotes', 'weibo', 'resume', 'pku', 'cityu', 'as'] and the parameters are described below:
 
 ```yaml
 --saved_ckpt_path: The trained model checkpoint path. Remember to modify it when you train your own model.
@@ -47,7 +47,7 @@ cd ./sh_folder/train/
 chmod +x ./{}.sh
 ./{}.sh
 ```
-Here, {} is in ['msra', 'onto', 'weibo', 'resume', 'pku'] and the parameters are described below:
+Here, {} is in ['msra', 'onto', 'weibo', 'resume', 'pku', 'cityu', 'as'] and the parameters are described below:
 
 ```yaml
 --model_name: The name of our released Chinese model, cambridgeltl/clbert-base-chinese.
