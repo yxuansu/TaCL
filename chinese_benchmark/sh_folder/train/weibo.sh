@@ -1,5 +1,5 @@
 CUDA_VISIBLE_DEVICES=1 python  ../../train.py\
-    --model_name cambridgeltl/clbert-base-chinese\
+    --model_name cambridgeltl/tacl-bert-base-chinese\
     --train_path ../../../benchmark_data/NER/WeiboNER/Weibo.train.all.char.txt\
     --dev_path ../../../benchmark_data/NER/WeiboNER/Weibo.dev.all.char.txt\
     --test_path ../../../benchmark_data/NER/WeiboNER/Weibo.test.all.char.txt\
