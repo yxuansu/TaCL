@@ -1,5 +1,5 @@
 CUDA_VISIBLE_DEVICES=0 python  ../../train.py\
-    --model_name cambridgeltl/clbert-base-chinese\
+    --model_name cambridgeltl/tacl-bert-base-chinese\
     --train_path ../../../benchmark_data/NER/ResumeNER/ResumeNER.train.char.txt\
     --dev_path ../../../benchmark_data/NER/ResumeNER/ResumeNER.dev.char.txt\
     --test_path ../../../benchmark_data/NER/ResumeNER/ResumeNER.test.char.txt\
