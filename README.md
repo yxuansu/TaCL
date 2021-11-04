@@ -40,7 +40,7 @@ representation = model(input_ids).last_hidden_state # [1, seqlen, embed_dim]
 
 ### 1. Environment Setup:
 ```yaml
-python version>=3.8
+python version: 3.8
 pip3 install -r requirements.txt
 ```
 ### 2. Train TaCL:
