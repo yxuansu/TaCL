@@ -4,7 +4,6 @@
 <img src="https://github.com/yxuansu/TaCL/blob/main/analysis/cross-similarity.png" width="500" height="350">
 #### (1) Get token representations of sentences sampled from Wikipedia:
 ```yaml
-# 
 chmod +x ./analyze_bert.sh
 ./analyze_bert.sh
 
