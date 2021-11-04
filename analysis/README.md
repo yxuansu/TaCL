@@ -3,4 +3,4 @@ To recreate the following Figure
 ![](https://github.com/yxuansu/TaCL/blob/main/analysis/cross-similarity.png =250x250)
 
 
-<img src="https://github.com/yxuansu/TaCL/blob/main/analysis/cross-similarity.png" width="500" height="500">
+<img src="https://github.com/yxuansu/TaCL/blob/main/analysis/cross-similarity.png" width="500" height="400">
