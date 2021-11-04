@@ -11,4 +11,4 @@ CUDA_VISIBLE_DEVICES=0,1 python train.py\
     --total_steps 18\
     --print_every 2\
     --save_every 5\
-    --ckpt_save_path ./debug_ckpt/clbert_chinese/
+    --ckpt_save_path ./debug_ckpt/tacl_chinese/
