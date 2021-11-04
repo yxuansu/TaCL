@@ -38,8 +38,11 @@ pip install pandas
 ```yaml
 python3 plot_cross_similarity_matrix.py
 ```
+
 Then you will get the visualization of BERT as
+
 <img src="https://github.com/yxuansu/TaCL/blob/main/analysis/bert_heatmap.png" width="400" height="280">
 
 and the visualization of TaCL as
+
 <img src="https://github.com/yxuansu/TaCL/blob/main/analysis/tacl_heatmap.png" width="400" height="280">
