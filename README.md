@@ -63,8 +63,3 @@ Please refer to details provided in ./chinese_benchmark directory.
 
 ### 5. Replicate Our Analysis Results:
 We provide all essential code to replicate the results provided in our analysis section. The related codes and instructions are located in ./analysis directory. **Have fun!** 
-
-### 5. Heatmap Visualization:
-We provide code to replicate our heatmap analysis. The jupyter notebooks are provided in ./heatmap_analysis directory. You can choose different sentences that are sampled from Wikipedia corpus to compare the results of vanilla BERT model and our CLBERT. **Have fun!**
-
-
