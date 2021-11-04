@@ -17,9 +17,5 @@ chmod +x ./analyze_zh_tacl.sh
 chmod +x ./analyze_zh_bert.sh
 ./analyze_zh_bert.sh
 ```
-
-```yaml
-chmod +x ./download_checkpoints.sh
-./download_checkpoints.sh
-```
+This process would take around half hour to complete on a single GPU.
 
