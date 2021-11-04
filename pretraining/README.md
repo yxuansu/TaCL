@@ -7,16 +7,16 @@
 To debug whether you have everything ready, you can run test scripts as
 
 ```yaml
-chmod +x ./debug_clbert_{}.sh
-./debug_clbert_{}.sh
+chmod +x ./debug_tacl_{}.sh
+./debug_tacl_{}.sh
 ```
 Here, {} is in ['english', 'chinese'].
 
 ### 3. Train the mode:
 After completing the test, you can train TaCL as 
 ```yaml
-chmod +x ./train_clbert_{}.sh
-./train_clbert_{}.sh
+chmod +x ./train_tacl_{}.sh
+./train_tacl_{}.sh
 ```
 Here, {} is in ['english', 'chinese'] and some key parameters are described below:
 
