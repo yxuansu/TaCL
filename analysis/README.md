@@ -17,5 +17,9 @@ chmod +x ./analyze_zh_tacl.sh
 chmod +x ./analyze_zh_bert.sh
 ./analyze_zh_bert.sh
 ```
-This process would take around half hour to complete on a single GPU.
+This process would take around half hour to complete on a single GPU. Alternatively, you can download our computed results using the command below.
+```yaml
+chmod +x ./download_json.sh
+./download_json.sh
+```
 
