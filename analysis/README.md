@@ -1,7 +1,7 @@
 # Instructions on recreating our analysis results:
 
 ### 1. Recreating the layer-wise cross-similarity plot:
-#### (1) Get token representations of sentences sampled from Wikipedia:
+#### (i) Get token representations of sentences sampled from Wikipedia:
 ```yaml
 chmod +x ./analyze_bert.sh
 ./analyze_bert.sh
@@ -21,10 +21,25 @@ chmod +x ./download_json.sh
 ./download_json.sh
 ```
 
-#### (2)Then run the following command and you will get the Figure below.
+#### (ii)Then run the following command and you will get the Figure below.
 ```yaml
 python3 plot_result.py
 ```
 <img src="https://github.com/yxuansu/TaCL/blob/main/analysis/cross-similarity.png" width="400" height="280">
 
 ### 2. Plot visualization of cross-similarity matrix:
+#### (i) Install required libraries:
+```yaml
+pip install seaborn
+pip install pandas
+```
+
+### (ii) Run the following command:
+```yaml
+python3 plot_cross_similarity_matrix.py
+```
+Then you will get the visualization of BERT as
+<img src="https://github.com/yxuansu/TaCL/blob/main/analysis/bert_heatmap.png" width="400" height="280">
+
+and the visualization of TaCL as
+<img src="https://github.com/yxuansu/TaCL/blob/main/analysis/tacl_heatmap.png" width="400" height="280">
