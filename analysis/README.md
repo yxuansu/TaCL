@@ -1,7 +1,7 @@
 # Instructions on recreating our analysis results:
 
 ### 1. Recreating the layer-wise cross-similarity plot:
-#### (1) Get token representations of sentences sampled from Wikipedia:
+Get token representations of sentences sampled from Wikipedia:
 ```yaml
 chmod +x ./analyze_bert.sh
 ./analyze_bert.sh
