@@ -24,4 +24,4 @@ Then run the following command and you will get the Figure below.
 ```yaml
 python3 plot_result.py
 ```
-<img src="https://github.com/yxuansu/TaCL/blob/main/analysis/cross-similarity.png" width="500" height="350">
+<img src="https://github.com/yxuansu/TaCL/blob/main/analysis/cross-similarity.png" width="400" height="280">
