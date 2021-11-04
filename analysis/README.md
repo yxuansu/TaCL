@@ -1,2 +1,2 @@
 To recreate the following Figure
-![Alt text](https://github.com/yxuansu/TaCL/blob/main/analysis/cross-similarity.png)
+![Alt text](https://github.com/yxuansu/TaCL/blob/main/analysis/cross-similarity.png | width=100)
