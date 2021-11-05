@@ -1,6 +1,8 @@
 # TaCL: Improving BERT Pre-training with Token-aware Contrastive Learning
 **Authors**: Yixuan Su, Fangyu Liu, Zaiqiao Meng, Lei Shu, Ehsan Shareghi, and Nigel Collier
 
+Code of our paper: [TaCL: Improving BERT Pre-training with Token-aware Contrastive Learning]()
+
 ## Introduction:
 Masked language models (MLMs) such as BERT and RoBERTa have revolutionized the field of Natural Language Understanding in the past few years. However, existing pre-trained MLMs output  an anisotropic distribution of token representations that occupies a narrow sub-set of the entire embedding space. Such token representations are not ideal, especially for tasks that demand discriminative semantic meanings of distinct tokens. In this work, we propose **TaCL** (**T**oken-**a**ware **C**ontrastive **L**earning), a new continual pre-training approach that encourages BERT to learn an isotropic and discriminative distribution of token representations. TaCL is fully unsupervised and requires no additional data. We extensively test our approach on a wide range of English and Chinese benchmarks. The results show that TaCL brings consistent and notable improvements over the BERT model. Furthermore, we conduct detailed ablation study and careful analysis to reveal the merits and inner-workings of our approach.
 
