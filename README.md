@@ -10,7 +10,7 @@ Masked language models (MLMs) such as BERT and RoBERTa have revolutionized the f
 If you find our paper and resources useful, please kindly cite our paper:
 
 ```bibtex
-@article{su2021multitask,
+@article{su2021tacl,
    author = {Yixuan Su and
              Fangyu Liu and
              Zaiqiao Meng and
