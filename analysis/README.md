@@ -1,6 +1,6 @@
 # Instructions on recreating our analysis results:
 
-#### Install required libraries:
+#### Install the required libraries:
 ```yaml
 pip install matplotlib
 pip install seaborn
