@@ -62,6 +62,9 @@ input_ids = torch.LongTensor(tokenizer.convert_tokens_to_ids(tokenized_token_lis
 representation = model(input_ids).last_hidden_state # [1, seqlen, embed_dim]
 ```
 
+## Tutorial on how to use Chinese TaCL BERT to performance Chinese Name Entity Recognition:
+
+
 ### 1. Environment Setup:
 ```yaml
 python version: 3.8
