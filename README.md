@@ -92,4 +92,4 @@ Please refer to details provided in ./chinese_benchmark directory.
 We provide all essential code to replicate the results provided in our analysis section. The related codes and instructions are located in ./analysis directory. **Have fun!** 
 
 ### Contact
-If you have any questions, feel free to contact me via (ys484@outlook.com)
+If you have any questions, feel free to contact me via (ys484@outlook.com).
