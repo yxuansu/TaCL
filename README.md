@@ -96,4 +96,4 @@ We provide all essential code to replicate the results (the images below) provid
 <img src="https://github.com/yxuansu/TaCL/blob/main/analysis/tacl_heatmap.png" width="380" height="260">
 
 ### Contact
-If you have any questions, feel free to contact me via (ys484@outlook.com).
+If you have any questions, feel free to contact me via (ys484 at outlook dot com).
