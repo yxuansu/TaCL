@@ -89,7 +89,11 @@ chmod +x ./download_benchmark_data.sh
 Please refer to details provided in ./chinese_benchmark directory.
 
 ### 5. Replicate Our Analysis Results:
-We provide all essential code to replicate the results provided in our analysis section. The related codes and instructions are located in ./analysis directory. **Have fun!** 
+We provide all essential code to replicate the results (the images below) provided in our analysis section. The related codes and instructions are located in ./analysis directory. **Have fun!** 
+
+<img src="https://github.com/yxuansu/TaCL/blob/main/analysis/cross-similarity.png" width="400" height="280">
+<img src="https://github.com/yxuansu/TaCL/blob/main/analysis/bert_heatmap.png" width="400" height="280">
+<img src="https://github.com/yxuansu/TaCL/blob/main/analysis/tacl_heatmap.png" width="400" height="280">
 
 ### Contact
 If you have any questions, feel free to contact me via (ys484@outlook.com).
