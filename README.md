@@ -8,22 +8,6 @@ Masked language models (MLMs) such as BERT and RoBERTa have revolutionized the f
 
 <img src="https://github.com/yxuansu/TaCL/blob/main/overview.png" width="400" height="280">
 
-### Citation:
-If you find our paper and resources useful, please kindly cite our paper:
-
-```bibtex
-@article{su2021tacl,
-   author = {Yixuan Su and
-             Fangyu Liu and
-             Zaiqiao Meng and
-             Lei Shu and
-             Ehsan Shareghi and
-             Nigel Collier},
-   title     = {TaCL: Improving BERT Pre-training with Token-aware Contrastive Learning},
-   journal   = {CoRR}
-}
-```
-
 ## Main Results:
 
 We show the comparison between TaCL (base version) and the original BERT (base version). 
@@ -95,6 +79,22 @@ We provide all essential code to replicate the results (the images below) provid
 <img src="https://github.com/yxuansu/TaCL/blob/main/analysis/cross-similarity.png" width="350" height="225">
 <img src="https://github.com/yxuansu/TaCL/blob/main/analysis/bert_heatmap.png" width="380" height="260">
 <img src="https://github.com/yxuansu/TaCL/blob/main/analysis/tacl_heatmap.png" width="380" height="260">
+
+### Citation:
+If you find our paper and resources useful, please kindly cite our paper:
+
+```bibtex
+@article{su2021tacl,
+   author = {Yixuan Su and
+             Fangyu Liu and
+             Zaiqiao Meng and
+             Lei Shu and
+             Ehsan Shareghi and
+             Nigel Collier},
+   title     = {TaCL: Improving BERT Pre-training with Token-aware Contrastive Learning},
+   journal   = {CoRR}
+}
+```
 
 ### Contact
 If you have any questions, feel free to contact me via (ys484 at outlook dot com).
