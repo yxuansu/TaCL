@@ -50,7 +50,7 @@ chmod +x ./{}.sh
 Here, {} is in ['msra', 'onto', 'weibo', 'resume', 'pku', 'cityu', 'as'] and the parameters are described below:
 
 ```yaml
---model_name: The name of our released Chinese model, cambridgeltl/clbert-base-chinese.
+--model_name: The name of our released Chinese model, cambridgeltl/tacl-bert-base-chinese.
 --train_path: Training data path.
 --dev_path: Validation data path.
 --test_path: Test data path.
