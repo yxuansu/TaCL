@@ -84,15 +84,13 @@ We provide all essential code to replicate the results (the images below) provid
 If you find our paper and resources useful, please kindly cite our paper:
 
 ```bibtex
-@article{su2021tacl,
-   author = {Yixuan Su and
-             Fangyu Liu and
-             Zaiqiao Meng and
-             Lei Shu and
-             Ehsan Shareghi and
-             Nigel Collier},
-   title     = {TaCL: Improving BERT Pre-training with Token-aware Contrastive Learning},
-   journal   = {CoRR}
+@misc{su2021tacl,
+      title={TaCL: Improving BERT Pre-training with Token-aware Contrastive Learning}, 
+      author={Yixuan Su and Fangyu Liu and Zaiqiao Meng and Lei Shu and Ehsan Shareghi and Nigel Collier},
+      year={2021},
+      eprint={2111.04198},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
 }
 ```
 
