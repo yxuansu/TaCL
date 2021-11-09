@@ -48,4 +48,4 @@ and the visualization of TaCL as
 
 <img src="https://github.com/yxuansu/TaCL/blob/main/analysis/tacl_heatmap.png" width="400" height="280">
 
-**[Note]** To visualize the results of a different sentence, you can freely modify the default text in the plot_cross_similarity_matrix.py file.
+**[Note]** To visualize the results of a different sentence, you can freely modify the default text in the plot_self_similarity_matrix.py file.
