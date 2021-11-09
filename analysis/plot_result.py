@@ -43,7 +43,7 @@ if __name__ == '__main__':
     plt.rc('font', family='serif')
     plt.rcParams.update({'font.size': 14})
     plt.xlabel('Layer', fontsize=16)
-    plt.ylabel('Cross-Similarity', fontsize=16)
+    plt.ylabel('Self-similarity', fontsize=16)
 
     x = [1,2,3,4,5,6,7,8,9,10,11,12]
     y1 = zh_bert_res_list
@@ -61,6 +61,10 @@ if __name__ == '__main__':
     plt.plot(x, y4, marker = 's', markerfacecolor='none', label='TaCL(Englsih)', linestyle='--', color=color_1)
     plt.plot(x, y3, marker = 'd', markerfacecolor='none', linestyle='--', label='BERT(English)', color=color_2)
 
-    plt.ylim(ymin=0.1, ymax=0.85)  # this line
-    plt.legend(loc='upper left', fontsize=12)
-    plt.savefig('cross-similarity.png', format='png', dpi=500, bbox_inches = 'tight')
+
+
+    plt.ylim(ymin=0.1, ymax=0.77)  # this line
+    #plt.legend(loc='upper left', fontsize=12)
+    plt.legend(fontsize=12, ncol=2, handleheight=2, labelspacing=0.005, columnspacing=0.5, loc='upper left')
+    #plt.show()
+    plt.savefig('self-similarity.png', format='png', dpi=500, bbox_inches = 'tight')
