@@ -7,7 +7,7 @@ pip install seaborn
 pip install pandas
 ```
 
-### 1. Recreating the layer-wise cross-similarity plot:
+### 1. Recreating the layer-wise self-similarity plot:
 #### (i) Get token representations of sentences sampled from Wikipedia:
 ```yaml
 chmod +x ./analyze_bert.sh
@@ -32,7 +32,7 @@ chmod +x ./download_json.sh
 ```yaml
 python3 plot_result.py
 ```
-<img src="https://github.com/yxuansu/TaCL/blob/main/analysis/cross-similarity.png" width="400" height="280">
+<img src="https://github.com/yxuansu/TaCL/blob/main/analysis/self-similarity.png" width="400" height="280">
 
 ### 2. Plot visualization of cross-similarity matrix:
 Run the following command:
