@@ -37,7 +37,7 @@ python3 plot_result.py
 ### 2. Plot visualization of cross-similarity matrix:
 Run the following command:
 ```yaml
-python3 plot_cross_similarity_matrix.py
+python3 plot_self_similarity_matrix.py
 ```
 
 Then you will get the visualization of BERT as
