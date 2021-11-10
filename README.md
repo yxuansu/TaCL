@@ -95,4 +95,4 @@ If you find our paper and resources useful, please kindly cite our paper:
 ```
 
 ### Contact
-If you have any questions, feel free to contact me via (ys484 at outlook dot com).
+If you have any questions, feel free to contact me via (ys484@cam.ac.uk).
