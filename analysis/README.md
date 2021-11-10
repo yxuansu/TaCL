@@ -34,7 +34,7 @@ python3 plot_result.py
 ```
 <img src="https://github.com/yxuansu/TaCL/blob/main/analysis/self-similarity.png" width="400" height="280">
 
-### 2. Plot visualization of cross-similarity matrix:
+### 2. Plot visualization of self-similarity matrix:
 Run the following command:
 ```yaml
 python3 plot_self_similarity_matrix.py
