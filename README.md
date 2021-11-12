@@ -8,7 +8,7 @@ Masked language models (MLMs) such as BERT and RoBERTa have revolutionized the f
 
 <img src="https://github.com/yxuansu/TaCL/blob/main/overview.png" width="400" height="280">
 
-[使用中文TaCL-BERT进行中文命名实体识别及中文分词教程](https://github.com/yxuansu/Chinese-TaCL-BERT-NER-CWS)
+## [使用中文TaCL-BERT进行中文命名实体识别及中文分词教程](https://github.com/yxuansu/Chinese-TaCL-BERT-NER-CWS)
 
 ## Main Results:
 
