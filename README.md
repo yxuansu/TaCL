@@ -6,7 +6,7 @@ Code of our paper: [TaCL: Improving BERT Pre-training with Token-aware Contrasti
 [[使用中文TaCL-BERT进行中文命名实体识别及中文分词教程]](https://github.com/yxuansu/Chinese-TaCL-BERT-NER-CWS)
 
 ### News:
-[2021/11/07] The first version of TaCL is released.
+[2021/11/09] The first version of TaCL is released.
 
 
 ## Introduction:
