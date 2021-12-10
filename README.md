@@ -1,5 +1,5 @@
 # TaCL: Improving BERT Pre-training with Token-aware Contrastive Learning
-**Authors**: Yixuan Su, Fangyu Liu, Zaiqiao Meng, Lei Shu, Ehsan Shareghi, and Nigel Collier
+**Authors**: Yixuan Su, Fangyu Liu, Zaiqiao Meng, Tian Lan, Lei Shu, Ehsan Shareghi, and Nigel Collier
 
 Code of our paper: [TaCL: Improving BERT Pre-training with Token-aware Contrastive Learning](https://arxiv.org/abs/2111.04198)
 
