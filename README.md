@@ -93,6 +93,7 @@ If you find our paper and resources useful, please kindly cite our paper:
   author    = {Yixuan Su and
                Fangyu Liu and
                Zaiqiao Meng and
+               Tian Lan and
                Lei Shu and
                Ehsan Shareghi and
                Nigel Collier},
