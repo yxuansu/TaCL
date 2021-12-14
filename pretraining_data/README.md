@@ -22,5 +22,7 @@ chmod +x ./tokenize_bert_uncased_data.sh
 ```
 This process takes around 10 hours on a local laptop.
 
+**[Note]** Due to computational consideration, we used the first 20 millions lines of raw text (~2 GB raw text) to pre-train our model.
+
 ### Prepare Chinese Wikipedia
 Due to copy right issue, we will not publicly redistribute our processed Chinese Wikipedia data. If you need the data, please contact me via (ys484 at cam.ac.uk).
