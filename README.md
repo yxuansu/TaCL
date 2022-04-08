@@ -7,7 +7,7 @@ Code of our paper: [TaCL: Improving BERT Pre-training with Token-aware Contrasti
 
 ### News:
 * [2022/04/08] TaCL is accepted to NAACL 2022!
-* [2021/11/09] The first version of TaCL is released.
+* [2021/11/09]  The first version of TaCL is released.
 
 
 ## Introduction:
